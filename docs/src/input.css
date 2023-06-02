@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bb {
+    border: 1px dashed black;
+  }
+
+  .bw{
+    border: 1px dashed white;
+  }
+
+  
+}
+
+* {
+    font-family: 'Source Serif 4', serif;
+}
+
+#wrapper {
+    /* height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+     overflow-x: hidden; 
+    perspective: 10px; */
+}
+
+header {
+    /*
+    transform-style: preserve-3d;*/
+}
+
+.background {
+    /* top: 0px;2000px; */
+    /* transform: translateZ(-20px) scale(3); */
+    /* transform: translateY(50%); */
+}
